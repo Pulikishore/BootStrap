@@ -1,0 +1,83 @@
+.ki-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 0rem !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-section {
+    background-image: url('path/to/your/image.png'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section .breadcrumb {
+    font-size: 1.2rem;
+}
+
+.breadcrumb {
+    color: white;
+}
+
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* response-courses */
+
+@media (max-width:1050px)
+  {
+
+   
+    .pics p {
+        position: absolute;
+        top: 118%;
+        left: 9%;
+    }
+    
+    .pics #para2 {
+        left: 30%;
+    }
+    
+    .pics #para3 {
+        left: 58%;
+    }
+    
+    .pics #para4 {
+        /* top: 373%; */
+        left: 80%;
+    }
+    
+    .pics #para5 {
+        top: 145%;
+        left: 9%;
+    }
+    
+    .pics #para6 {
+        top: 145%;
+        left: 30%;
+    }
+    
+    .pics #para7 {
+        top: 145%;
+        left: 58%;
+    }
+    
+    .pics #para8 {
+        top:145%;
+        left: 80%;
+    }
+    }

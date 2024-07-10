@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="response.css" type="text/css">
+
+<link rel="stylesheet" href="about.html" >
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+  <!-- navebar -->
+
+
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h3>Bright_Path Academy </h3>
+      </a>
+
+      <ul class="nav unvisible justify-content-center text-warning">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="courses.html">Courses</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="faculty.html">Faclties</a>
+        </li>
+       
+        <li class="  nav-item">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Bright_Path Academy</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faculty.html">Faculties</a>
+            </li>
+
+                   
+        <li class="  nav-item">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Achievments
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item" href="subject.html">Certified Courses</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#contact">Career Services</a></li>
+              </ul>
+           
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- overview -->
+
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="/pictures/h-1.jpg" class="d-block " width="100%" height="30%" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Flexible Learning!
+            </h3>
+          <p>Study at your own pace with 24/7 access to course materials. Whether you're balancing work, family, or other commitments, our courses fit into your busy life.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/pictures/h-3.jpg" class="d-block" width="100%" height="30%" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Expert Instructors!</h3>
+          <p>
+            Learn from industry leaders and renowned experts. Our instructors bring real-world experience and practical knowledge to every course..</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/pictures/h-2.jpg" class="d-block" width="100%" height="30%" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Supportive Community!</h3>
+          <p>
+            Connect with fellow learners and instructors in our vibrant online community. Share your progress, ask questions, and build lasting relationships.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- ------- About us -------- -->
+
+  
+
+
+
+<!-- About 1 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5" style="margin-top: 70px;">
+  <div class="About">
+    <h5  >ABOUT US</h5>
+    
+  </div>
+  <div class="container " >
+    <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6 col-xl-5">
+        <img class="img-fluid rounded" loading="lazy" src="/pictures/course-3.jpg" alt="About 1">
+      </div>
+      <div class="col-12 col-lg-6 col-xl-7">
+        <div class="row justify-content-xl-center">
+          <div class="col-12 col-xl-11">
+            <h2 class="mb-3">Welcome to Bright_Path Academy!</h2>
+            <p class="lead fs-4 text-secondary mb-3 text-justify"></p>
+            <p class="mb-5">
+              At BrightPath Academy, we are committed to providing high-quality, accessible education to learners around the world. Our mission is to empower individuals to reach their full potential through comprehensive, flexible, and engaging online courses.</p>
+
+              <h2 class="h4 mb-3 "> <i class="fa-solid fa-rocket"></i> Our Mission</h2>
+
+              <p class=" will">
+                Our mission is to illuminate the path to success for every learner. We believe that education is a powerful tool for personal and professional growth,</p>
+
+                <h2 class="h4 mb-3"><i class="fa-solid fa-star-half-stroke"></i> Our Values</h2>
+                <p class="" style="color: white;" >
+                  We are dedicated to providing high-quality education that meets the highest standards of academic and professional excellence.</p>
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <div  class="subject" style="margin-top: 70px;">
+    <h5>SUBJECTS</h5>
+    <H2>Explore Top Subjects</H2>
+  </div>
+
+  <!-- ------ Grid -------- -->
+<div class="container" style="margin-top: 50;">
+  <div class="container-">
+    
+    <div class="pics">
+      <a href=""><img src="/pictures/cat-1.jpg" alt="">
+        <p id="para1"> Web Design <br> 100 cources</p>
+      </a>
+    </div>
+    <div class="pics">
+      <a href=""><img src="/pictures/cat-7.jpg" alt=""></a>
+      <p id="para2">Content Writing <br> 100 cources</p></a>
+    </div>
+    <div class="pics">
+      <a href=""><img src="/pictures/cat-8.jpg" alt=""></a>
+      <p id="para3"> SAP <br> 100 cources</p></a>
+    </div>
+    <div class="pics">
+      <a href=""><img src="/pictures/cat-2.jpg" alt="">
+        <p id="para4">Development <br> 100 cources</p>
+      </a>
+    </div>
+    <div class="pics">
+      <a href=""><img src="/pictures/cat-3.jpg" alt="">
+        <p id="para5"> Game Design <br> 100 cources</p>
+      </a>
+    </div>
+    <div class="pics">
+      <a href=""> <img src="/pictures/cat-4.jpg" alt="">
+        <p id="para6"> App Design <br> 100 cources</p>
+      </a>
+    </div>
+    <div class="pics">
+      <a href=""> <img src="/pictures/cat-5.jpg" alt="">
+        <p id="para7"> Marketing <br> 100 cources</p>
+      </a>
+    </div>
+    <div class="pics">
+      <a href=""></a><img src="/pictures/cat-6.jpg" alt="">
+      <p id="para8"> Re-search <br> 100 cources</p></a>
+    </div>
+
+  </div>
+</div>
+
+
+  <div  class="course" style="margin-top: 70px;">
+    <h5>COURCES</h5>
+    <H2>Our Popular Courses</H2>
+  </div>
+
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/pictures/course-2.jpg" alt="">
+           
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"> <i class="fa-solid fa-users"></i> 25 Students</small>
+                <small class="text-muted"><i class="fa-solid fa-clock"></i> 1h 30min</small>
+              </div>
+              <p class="card-text">This comprehensive course covers the fundamentals of data science and machine learning. Students will learn how to analyze data, build predictive models, and use tools such as Python and R. That allow learners to apply their skills in real-world scenarios.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fa-solid fa-star"></i> 4.5 (250)</small>
+                <small class="text-muted"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 666</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+       
+            <img src="/pictures/course-1.jpg" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"> <i class="fa-solid fa-users"></i> 55 Students</small>
+                <small class="text-muted"><i class="fa-solid fa-clock"></i> 1h 01min</small>
+              </div>
+             
+              <p class="card-text">The Web Development Bootcamp is designed for beginners and covers everything from HTML and CSS to JavaScript and backend development. Students will create responsive websites and web applications, gaining practical experience through coding exercises and projects.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fa-solid fa-star"></i> 4.7 (360)</small>
+                <small class="text-muted"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 333</small>
+              
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/pictures/course-3.jpg" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"> <i class="fa-solid fa-users"></i> 52 Students</small>
+                <small class="text-muted"><i class="fa-solid fa-clock"></i> 2h 38min</small>
+              </div>
+              <p class="card-text">This course provides an in-depth understanding of digital marketing strategies and tools. Students will learn how to create effective online marketing campaigns, optimize websites for search engines, and leverage social media platforms to reach target audiences.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fa-solid fa-star"></i> 4.9 (250)</small>
+                <small class="text-muted"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 559</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+           <img src="/pictures/course-4.jpg" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"> <i class="fa-solid fa-users"></i> 74 Students</small>
+                <small class="text-muted"><i class="fa-solid fa-clock"></i> 1h 59min</small>
+              </div>
+              <p class="card-text">Aimed at aspiring business leaders, this course covers essential management principles and leadership skills. Students will explore strategic planning, financial management, preparing them for leadership roles in various industries.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"><i class="fa-solid fa-star"></i> 3.3 (400)</small>
+                <small class="text-muted"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 766</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/pictures/course-5.jpg" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"> <i class="fa-solid fa-users"></i> 85 Students</small>
+                <small class="text-muted"><i class="fa-solid fa-clock"></i> 1h 45min</small>
+              </div>
+              <p class="card-text">This course introduces students to the world of graphic design and multimedia. Learners will master design principles, use industry-standard software like Adobe Photoshop and Illustrator, compelling projects for print and digital media.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                
+                  <small class="text-muted"><i class="fa-solid fa-star"></i> 4.5 (200)</small>
+                  <small class="text-muted"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 777</small>
+             
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="/pictures/course-6.jpg" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted"> <i class="fa-solid fa-users"></i> 87 Students</small>
+                <small class="text-muted"><i class="fa-solid fa-clock"></i> 2h 30min</small>
+              </div>
+              <p class="card-text">The Cybersecurity Fundamentals course equips students with the knowledge and skills to protect systems and data from cyber threats. Topics include network security, cryptography, and risk management, with hands-on labs and real-world case studies.</p>
+              <div class="d-flex justify-content-between align-items-center">
+             
+                  <small class="text-muted"><i class="fa-solid fa-star"></i> 5.0 (150)</small>
+                  <small class="text-muted"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 990</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+
+        
+    </div>
+</div>
+
+
+<div class="container py-5">
+
+  <div class="faculty">
+    <h5>FACULTIES</h5>
+    <H2>Meet Our Faculty</H2>
+  </div>
+</div><!-- End -->
+
+
+<div class="container">
+  <div class="row text-center">
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-3 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/pictures/team-1.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">Jhon Doe</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+              <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
+          </div>
+      </div><!-- End -->
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-3 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/pictures/team-2.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">Samuel Hardy</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+      </div><!-- End -->
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-3 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/pictures/team-3.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+      </div><!-- End -->
+
+      <!-- Team item -->
+      <div class="col-xl-3 col-sm-3 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-team/teacher-7.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">John Tarly</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+      </div><!-- End -->
+  </div>
+</div>
+
+<!-- ------------- Blogs --------------- -->
+
+<div  class="blog" style="margin-top: 70px;">
+  <h5>Blog</h5>
+  <H2>What says our Students</H2>
+</div>
+ <div id="testimonialCarousel" class="carousel slide" data-ride="carousel"> <div class="carousel-inner">
+  
+  <!-- Slide 1 --> <div class="carousel-item active"> <div class="testimonial">
+    <div class="quote">&ldquo;</div> <div class="text">"Enrolling in the Data Science program at Online BrightPart Academy was the best decision I've ever made. The course material is comprehensive and up-to-date, and the instructors are incredibly knowledgeable. I appreciated the hands-on projects, which allowed me to apply what I learned in real-world scenarios. Thanks to this program, I landed my dream job as a Data Analyst at a leading tech company."</div> <div class="client-info"> <img src="/pictures/testimonial-2.jpg" alt="Client Photo"> <div class="client-name">Jane Smith - Aspiring Data Scientist</div> <div class="client-profession">Student 1</div> </div> </div> </div>
+   
+  <!-- Slide 2 --> 
+   
+  <div class="carousel-item"> <div class="testimonial"> 
+    <div class="quote">&ldquo;</div> <div class="text">"Online BrightPart Academy's Business Management course has been instrumental in my career growth. The course covers everything from strategic planning to financial management, providing a holistic view of business operations. The interactive case studies and group discussions enhanced my understanding and allowed me to network with like-minded individuals. I feel more confident and prepared to take on leadership roles in my organization."</div> <div class="client-info"> <img src="/pictures/testimonial-3.jpg" alt="Client Photo"> <div class="client-name">Michael Johnson - Budding Web Developer</div> <div class="client-profession">Student 2</div> </div> </div> </div> 
+  
+  <!-- Slide 3 --> 
+   
+  <div class="carousel-item"> <div class="testimonial"> 
+    
+    <div class="quote">&ldquo;</div> <div class="text">Y"As someone who was completely new to coding, I was initially intimidated by the thought of learning web development. However, Online BrightPart Academy made the learning process smooth and enjoyable. The step-by-step lessons, along with the supportive online community, helped me build a solid foundation in HTML, CSS, and JavaScript. I am now working on freelance projects and building my portfolio."</div> <div class="client-info"> <img src="/pictures/user.jpg" alt="Client Photo"> <div class="client-name">Emily Davis - Future Business Leader</div> <div  class="client-profession">Student 3</div> </div> </div> 
+</div> 
+</div> 
+
+<a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+
+  <!-- login-page -->
+
+
+  <section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+            class="img-fluid resp" alt="Sample image">
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form>
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-center">
+              <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+  
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+  
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </button>
+            </div>
+  
+            <div class="divider d-flex align-items-center my-4">
+              <p class="text-center fw-bold mx-3 mb-0">Or</p>
+            </div>
+  
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form3Example3" class="form-control form-control-lg"
+                placeholder="Enter a valid email address" />
+              <!-- <label class="form-label" for="form3Example3">Email address</label> -->
+            </div>
+  
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-3">
+              <input type="password" id="form3Example4" class="form-control form-control-lg"
+                placeholder="Enter password" />
+              <!-- <label class="form-label" for="form3Example4">Password</label> -->
+            </div>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- Checkbox -->
+              <div class="form-check mb-0">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                <label class="form-check-label" for="form2Example3">
+                  Remember me
+                </label>
+              </div>
+              <a href="#!" class="text-body">Forgot password?</a>
+            </div>
+  
+            <div class="text-center text-lg-center mt-4 pt-2 spaces">
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+              <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                  class="link-danger">Register</a></p>
+            </div>
+  
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  </section>
+
+
+
+  <!-- contact footer -->
+
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div id="contact" class="container-flu ki-5">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color:rgb(33 37 41) !important;
+"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4 "
+             style="background-color: #0d6efd"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Bright Path Academy
+             </h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              "Empowering minds, inspiring futures."
+
+              "Where every path leads to success."
+              
+              "Nurturing potential, achieving excellence."
+              "Empowering minds, shaping futures."
+              
+              
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Resources
+              
+              
+             
+              
+              </h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Parent Portal</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Student Portal</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white"> Alumni</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Careers</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Quick Links
+             
+           </h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #b49bfa; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white"> Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Programs</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Admissions</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class=" fw-bold">Contact Us</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> 123 Learning Lane, Education City, ED 45678
+             
+              </p>
+            <p><i class="fas fa-envelope mr-3"></i> info@brightpathacademy.edu</p>
+            <p><i class="fas fa-phone mr-3"></i>  (123) 456-7890</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.919)"
+         >
+      © 2024 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         > brightpathacademy.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </div>
+  </div>
+  </footer>
+  <!-- Footer -->
+
+
+  </body>
+
+<!-- End of .container -->
+
+</html>
+
+
+
+
